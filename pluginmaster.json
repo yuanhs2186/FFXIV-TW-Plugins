@@ -232,10 +232,10 @@
   {
     "Name": "Boss Mod",
     "InternalName": "BossMod",
-    "AssemblyVersion": "7.2.5.107",
+    "AssemblyVersion": "7.3.0.107",
     "Author": "veyn（台服 API13 編譯：yuanhs2186）",
     "Punchline": "提供 AutoDuty 所需的副本戰鬥與機制處理。",
-    "Description": "以 BossMod 7.2 時期程式碼對台服 Dalamud API13 重新編譯；InternalName 為 BossMod，可被 AutoDuty 必要插件檢查辨識。",
+    "Description": "以 BossMod 7.3 上線日的 API13 程式碼與簽名修正版，對台服 Dalamud 13.0.0.16 重新編譯；可被 AutoDuty 必要插件檢查辨識。",
     "ApplicableVersion": "any",
     "Tags": [
       "combat",
@@ -248,16 +248,16 @@
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
     "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
-    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/bossmod-tw-api13-7.2.5.107/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/bossmod-tw-api13-7.2.5.107/latest.zip"
+    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/bossmod-tw-api13-7.3.0.107/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/bossmod-tw-api13-7.3.0.107/latest.zip"
   },
   {
     "Name": "GatherBuddy Reborn API13",
     "InternalName": "GatherBuddyReborn",
-    "AssemblyVersion": "7.3.0.2",
-    "Author": "The Combat Reborn Team",
+    "AssemblyVersion": "7.3.0.21",
+    "Author": "The Combat Reborn Team（台服 API13 編譯：yuanhs2186）",
     "Punchline": "自動採集、採集路線與採集清單工具。",
-    "Description": "Combat Reborn 官方第一批 Dalamud API13 Release；先使用英文原版確保可載入。",
+    "Description": "以 Combat Reborn 7.3.0.2 原始碼與 7.3 採集／技能資料，對台服 Dalamud 13.0.0.16 重新編譯。",
     "ApplicableVersion": "any",
     "Tags": [
       "gathering",
@@ -268,8 +268,8 @@
     "AcceptsFeedback": true,
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn",
-    "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.3.0.2/GatherbuddyReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.3.0.2/GatherbuddyReborn.zip"
+    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/gatherbuddy-tw-api13-7.3.0.21/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/gatherbuddy-tw-api13-7.3.0.21/latest.zip"
   },
   {
     "Name": "Rotation Solver Reborn API13",
