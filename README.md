@@ -35,6 +35,7 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | Target Lines | 1.9.0.0 | 13 | goatcorp 官方 API13 歷史套件 |
 | XIV Combo Expanded | 2.0.4.1 | 13 | 連擊合併單鍵；以 API14 更新前最後一版原始碼重新編譯 |
 | AutoHook | 5.0.0.11 | 13 | 釣魚自動提鉤；以 API14 更新前最後一版原始碼重新編譯 |
+| Wrath Combo | 1.0.2.17 | 13 | 連擊合併進化版；Yuki 保存的官方 API13 Release，與 XIV Combo 擇一使用 |
 
 ## 注意事項
 

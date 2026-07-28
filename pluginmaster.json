@@ -381,6 +381,28 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/EnemyListDebuffs/latest.zip"
   },
   {
+    "Name": "Wrath Combo API13",
+    "InternalName": "WrathCombo",
+    "AssemblyVersion": "1.0.2.17",
+    "Author": "Team Wrath (PunishXIV)",
+    "Punchline": "連擊合併單鍵進化版，可組出接近完整循環的輸出。",
+    "Description": "Puni.sh 官方最後一版 Dalamud API13 Release（Yuki 台服相容庫保存）。使用 /wrath 開啟設定；與 XIV Combo Expanded 功能重疊，同一職業請擇一啟用。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "combo",
+      "combat",
+      "rotation",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": false,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/PunishXIV/WrathCombo",
+    "IconUrl": "https://s3.puni.sh/media/plugin/60/icon-2bwhkn3zf1f.png",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/WrathCombo/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/WrathCombo/latest.zip"
+  },
+  {
     "Name": "AutoHook API13",
     "InternalName": "AutoHook",
     "AssemblyVersion": "5.0.0.11",
