@@ -28,6 +28,10 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | Boss Mod | 0.4.4.2 | 13 | AutoDuty 必要戰鬥與機制插件 |
 | GatherBuddy Reborn | 7.3.0.23 | 13 | 台服實機驗證；修正繁中語言初始化並略過未開放的 7.3 採集資料 |
 | Rotation Solver Reborn | 7.3.0.7 | 13 | AutoDuty 可用的戰鬥循環插件 |
+| Sonar | 0.7.4.1 | 13 | 狩獵與特殊 FATE 情報接收、轉發 |
+| Item Vendor Location | 2.11.0.0 | 13 | 從物品選單查詢商人位置 |
+| EnemyListDebuffs | 1.13.0.0 | 13 | 在敵人列表顯示自身施加的減益 |
+| Target Lines | 1.9.0.0 | 13 | goatcorp 官方 API13 歷史套件 |
 
 ## 注意事項
 

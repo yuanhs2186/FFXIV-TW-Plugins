@@ -292,5 +292,91 @@
     "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/RSR_Icon.png",
     "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.3.0.7/RotationSolver.zip",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn/releases/download/7.3.0.7/RotationSolver.zip"
+  },
+  {
+    "Name": "Sonar API13",
+    "InternalName": "SonarPlugin",
+    "AssemblyVersion": "0.7.4.1",
+    "Author": "Sonar Team",
+    "Punchline": "自動接收與轉發狩獵、特殊 FATE 情報。",
+    "Description": "Yuki 台服相容庫保存的 Dalamud API13 版本；使用 /sonar 開啟介面，/sonarconfig 設定。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "hunt",
+      "fate",
+      "relay",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": false,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://discord.gg/K7y24Rr",
+    "IconUrl": "https://assets.ffxivsonar.com/dalamud/logo.png",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/SonarPlugin/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/SonarPlugin/latest.zip"
+  },
+  {
+    "Name": "Item Vendor Location API13",
+    "InternalName": "ItemVendorLocation",
+    "AssemblyVersion": "2.11.0.0",
+    "Author": "electr0sheep, Nuko",
+    "Punchline": "在物品選單中查詢可購買該物品的商人位置。",
+    "Description": "Yuki 台服相容庫保存的 Dalamud API13 版本；在物品右鍵選單加入商人位置查詢。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "items",
+      "vendor",
+      "location",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/electr0sheep/ItemVendorLocation",
+    "IconUrl": "https://raw.githubusercontent.com/electr0sheep/ItemVendorLocation/main/Images/icon.png",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/ItemVendorLocation/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/ItemVendorLocation/latest.zip"
+  },
+  {
+    "Name": "EnemyListDebuffs API13",
+    "InternalName": "EnemyListDebuffs",
+    "AssemblyVersion": "1.13.0.0",
+    "Author": "Felys",
+    "Punchline": "在敵人列表顯示你施加的減益與持續傷害。",
+    "Description": "Yuki 台服相容庫保存的 Dalamud API13 / 遊戲 7.3 版本。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "combat",
+      "debuffs",
+      "enemy-list",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/Felys1998/EnemyListDebuffs",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/EnemyListDebuffs/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/EnemyListDebuffs/latest.zip"
+  },
+  {
+    "Name": "Target Lines API13",
+    "InternalName": "TargetLines",
+    "AssemblyVersion": "1.9.0.0",
+    "Author": "Drahsid",
+    "Punchline": "顯示可自訂的目標指向線。",
+    "Description": "goatcorp 官方 PluginDistD17 在 Dalamud API13 時期保存的歷史版本。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "target",
+      "lines",
+      "combat",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/Drahsid/TargetLines",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/21983bdde173286a3077ea1ad5f399483dff43ee/stable/TargetLines/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/PluginDistD17/21983bdde173286a3077ea1ad5f399483dff43ee/stable/TargetLines/latest.zip"
   }
 ]
