@@ -1,0 +1,89 @@
+[
+  {
+    "Author": "Taurenkey (Puni.sh), MeowZWR；繁中整理：yuanhs2186",
+    "Name": "Artisan 繁體中文台服版",
+    "Punchline": "適用台服 Dalamud API 13 的繁體中文 Artisan。",
+    "Description": "基於 MeowZWR Artisan 4.0.4.6-cn 製作，轉為繁體中文與台灣用語，並編譯為台服 Dalamud API 13 版本。",
+    "Changelog": "首個繁體中文台服版；版本 4.0.4.61。",
+    "Tags": [
+      "crafting",
+      "traditional-chinese",
+      "taiwan",
+      "api13"
+    ],
+    "InternalName": "Artisan",
+    "AssemblyVersion": "4.0.4.61",
+    "TestingAssemblyVersion": "4.0.4.61",
+    "RepoUrl": "https://github.com/yuanhs2186/FFXIV-TW-Plugins",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 13,
+    "TestingDalamudApiLevel": 13,
+    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/artisan-tw-4.0.4.61/Artisan-TW-4.0.4.61.zip",
+    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/artisan-tw-4.0.4.61/Artisan-TW-4.0.4.61.zip",
+    "DownloadLinkTesting": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/artisan-tw-4.0.4.61/Artisan-TW-4.0.4.61.zip",
+    "IconUrl": "https://static.meowrs.com/Plugins/Artisan/icon.png"
+  },
+  {
+    "Name": "AutoDuty",
+    "InternalName": "AutoDuty",
+    "AssemblyVersion": "0.0.0.278",
+    "Author": "erdelf, Herculezz",
+    "Punchline": "自動執行副本、親信戰友、冒險者分隊及多變迷宮。",
+    "Description": "台服 Dalamud API 13 相容版。需要 BossMod、vnavmesh，以及支援的戰鬥循環插件。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "duty",
+      "automation",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/erdelf/AutoDuty",
+    "IconUrl": "https://s3.puni.sh/media/plugin/54/icon-15ug2vnr9m1.png",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/AutoDuty/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/AutoDuty/latest.zip"
+  },
+  {
+    "Name": "AutoRetainer",
+    "InternalName": "AutoRetainer",
+    "AssemblyVersion": "4.5.4.12",
+    "Author": "kawaii, NightmareXIV",
+    "Punchline": "自動領取並重新派遣雇員探險。",
+    "Description": "台服 Dalamud API 13 相容版，可管理雇員探險與相關自動化功能。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "retainer",
+      "automation",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
+    "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/AutoRetainer/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/AutoRetainer/latest.zip"
+  },
+  {
+    "Name": "Yes Already",
+    "InternalName": "YesAlready",
+    "AssemblyVersion": "1.13.5",
+    "Author": "daemitus, kawaii",
+    "Punchline": "依照設定自動確認各種對話框。",
+    "Description": "台服 Dalamud API 13 相容版，可自動處理重複出現的確認視窗，並支援文字與正規表示式規則。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "dialog",
+      "automation",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/PunishXIV/YesAlready",
+    "IconUrl": "https://s3.puni.sh/media/plugin/26/icon-v1pvonkr6r.png",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/YesAlready/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/YesAlready/latest.zip"
+  }
+]
