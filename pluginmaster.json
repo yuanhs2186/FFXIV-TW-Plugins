@@ -29,7 +29,7 @@
     "AssemblyVersion": "0.0.0.278",
     "Author": "erdelf, Herculezz",
     "Punchline": "自動執行副本、親信戰友、冒險者分隊及多變迷宮。",
-    "Description": "台服 Dalamud API 13 相容版。需要 BossMod、vnavmesh，以及支援的戰鬥循環插件。",
+    "Description": "台服 Dalamud API 13 相容版。需要 BossMod Reborn、vnavmesh，以及支援的戰鬥循環插件。",
     "ApplicableVersion": "any",
     "Tags": [
       "duty",
@@ -230,12 +230,12 @@
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/Stylist/releases/download/1.0.0.11/latest.zip"
   },
   {
-    "Name": "Boss Mod",
-    "InternalName": "BossMod",
-    "AssemblyVersion": "7.3.0.108",
-    "Author": "veyn（台服 API13 編譯：yuanhs2186）",
-    "Punchline": "提供 AutoDuty 所需的副本戰鬥與機制處理。",
-    "Description": "以 BossMod 7.3 上線日的 API13 程式碼與簽名修正版，對台服 Dalamud 13.0.0.16 重新編譯；適配 2026.07.22 台服客戶端（MapEffect 簽名與 ClassJobLevels 修正）；可被 AutoDuty 必要插件檢查辨識。",
+    "Name": "BossMod Reborn API13",
+    "InternalName": "BossModReborn",
+    "AssemblyVersion": "7.3.8.41",
+    "Author": "The Combat Reborn Team（台服 API13 編譯：yuanhs2186）",
+    "Punchline": "供 AutoDuty 使用的副本機制處理、自動移動與戰鬥工具。",
+    "Description": "以 Combat Reborn 7.3.8.4 原始碼對台服 Dalamud API13 重新編譯；台服不存在上游 InventoryAck 簽名，因此將該選用物品追蹤 Hook 改為可略過，避免插件初始化失敗。已在台服實機驗證載入。",
     "ApplicableVersion": "any",
     "Tags": [
       "combat",
@@ -246,10 +246,10 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "DalamudApiLevel": 13,
-    "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
-    "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
-    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/bossmod-tw-api13-7.3.0.108/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/bossmod-tw-api13-7.3.0.108/latest.zip"
+    "RepoUrl": "https://github.com/FFXIV-CombatReborn/BossmodReborn",
+    "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/BMR_Icon.png",
+    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/bossmodreborn-tw-api13-7.3.8.41/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/bossmodreborn-tw-api13-7.3.8.41/latest.zip"
   },
   {
     "Name": "GatherBuddy Reborn API13",
