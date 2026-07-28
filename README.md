@@ -20,15 +20,16 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 
 插件版本不等於 FFXIV 遊戲版本。
 
-例如：
+這裡有兩種容易混淆的版本：
 
-- `BossMod Reborn 7.3.8.4` 是 BossMod Reborn 的插件版本，不代表遊戲版本「7.38」。
+- 台服 Dalamud `26-07-28-02` 的更新公告所說的 **7.38**，是指此版 Dalamud 以國際服／簡中 7.38 客戶端為基底製作。
+- `BossMod Reborn 7.3.8.4` 則是 BossMod Reborn 自己的插件版本；數字看起來接近，但不是同一套版本規則。
 - 本庫的 `7.3.8.41` 表示以 `7.3.8.4` 為基底製作的台服相容修正版。
 - GatherBuddy、Rotation Solver、vnavmesh 等插件各自採用不同版本規則，不能只用數字大小互相比較。
 
 國際服上游目前已進入較新的 API 與遊戲資料版本，直接使用最新版本不一定能在台服 API 13 載入。本庫以「台服實際能載入及使用」為優先，不以追上國際服最高版本號為目標。
 
-台服介面雖可能顯示遊戲開放版本為 7.2，但實際客戶端包含部分 7.3 技能與資料。因此相容性以 Dalamud API、實際客戶端、載入日誌及遊戲測試為準。
+台服目前對外開放內容雖標示為 7.2，但 `26-07-28-02` Dalamud 的程式結構、ClientStructs、signature 與遊戲資料選版應優先參考國際服／簡中 **7.38** 基底。API 等級仍是 13，不能直接安裝國際服現行 API 15 插件。
 
 ## 重要相容性選擇
 
@@ -37,8 +38,8 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | 插件 | 本庫版本 | 採用原因 |
 | --- | --- | --- |
 | BossMod Reborn | `7.3.8.41` | 基於上游 `7.3.8.4`；台服找不到 `InventoryAck` signature 時改為停用該項 hook，而不是讓整個插件載入失敗 |
-| GatherBuddy Reborn | `7.3.0.24` | 處理台服 `ClientLanguage`、尚未存在的魚類／藏寶圖資料，以及換職後 `Invalid job selected` |
-| Rotation Solver Reborn | `7.3.0.71` | 針對台服 Dalamud API 13 重編譯並帶入技能組，避開不相容的 DTR API |
+| GatherBuddy Reborn | `7.3.0.24` | 已處理台服 `ClientLanguage`、資料與 `Invalid job selected`，但上游基底早於 7.38；目前可載入，不視為最終 7.38 對應版 |
+| Rotation Solver Reborn | `7.3.0.71` | 已避開台服不相容的 DTR API 並可載入，但技能組基底早於 7.38；需要再移植到 7.3.8 系列 |
 | vnavmesh | `0.2.8.0` | 採用已確認可配合 AutoDuty 的 AtmoOmen 中文 API 13 版本；不同來源的版本號不可直接比較 |
 
 已檢查到的其他 API 13 套件：
@@ -47,7 +48,7 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 - GatherBuddy Reborn `7.3.8.14` 仍會把台服語言值傳入只支援 EN／DE／FR／JP 的名稱表，會重現 `ArgumentException`。
 - Rotation Solver Reborn `7.3.8.27` 仍呼叫台服 API 13 缺少的 DTR `OnClick`，會反覆出現 `Method not found`。
 
-因此「數字較大」不代表在目前台服環境較新或較穩定。
+這些 `7.3.8.x` 套件的遊戲資料基底比目前 GatherBuddy／Rotation Solver 更接近 `02` 版 Dalamud，但不能原封不動使用。正確更新方向是把我們已驗證的台服 API 修正移植到 `7.3.8.x` 基底，而不是永久停留在 `7.3.0.x`，也不是只因版本號較大就直接替換。
 
 ## 收錄插件
 
@@ -66,8 +67,8 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | Stylist | `1.0.0.11` | 13 | AutoDuty 建議的裝備推薦配套 |
 | Gearsetter | `4.0` | 13 | AutoDuty 裝備推薦 IPC；官方歷史 API 13 Release |
 | BossMod Reborn | `7.3.8.41` | 13 | AutoDuty 戰鬥與機制插件；含台服 `InventoryAck` 相容修正 |
-| GatherBuddy Reborn | `7.3.0.24` | 13 | 台服語言、資料與自動換職相容修正 |
-| Rotation Solver Reborn | `7.3.0.71` | 13 | 台服 API 13 主插件與技能組 |
+| GatherBuddy Reborn | `7.3.0.24` | 13 | 暫用：台服語言、資料與自動換職相容修正；待重做 7.38 基底版 |
+| Rotation Solver Reborn | `7.3.0.71` | 13 | 暫用：台服 API 13 可載入版；待重做 7.38 技能組基底版 |
 | Sonar | `0.7.4.1` | 13 | 狩獵與特殊 FATE 情報接收、轉發 |
 | Item Vendor Location | `2.11.0.0` | 13 | 從物品選單查詢商人位置 |
 | EnemyListDebuffs | `1.13.0.0` | 13 | 在敵人列表顯示自身施加的減益 |
