@@ -34,6 +34,7 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | EnemyListDebuffs | 1.13.0.0 | 13 | 在敵人列表顯示自身施加的減益 |
 | Target Lines | 1.9.0.0 | 13 | goatcorp 官方 API13 歷史套件 |
 | XIV Combo Expanded | 2.0.4.1 | 13 | 連擊合併單鍵；以 API14 更新前最後一版原始碼重新編譯 |
+| AutoHook | 5.0.0.11 | 13 | 釣魚自動提鉤；以 API14 更新前最後一版原始碼重新編譯 |
 
 ## 注意事項
 

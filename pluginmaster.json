@@ -381,6 +381,28 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/EnemyListDebuffs/latest.zip"
   },
   {
+    "Name": "AutoHook API13",
+    "InternalName": "AutoHook",
+    "AssemblyVersion": "5.0.0.11",
+    "Author": "Det (PunishXIV)（台服 API13 編譯：yuanhs2186）",
+    "Punchline": "自動提鉤、自動拋竿的釣魚輔助。",
+    "Description": "以 PunishXIV/AutoHook API14 更新前最後一版 API13 原始碼（commit 081cab5）對台服 Dalamud 13.0.0.16 重新編譯，無需改碼。使用 /ahook 開啟設定。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "fishing",
+      "gathering",
+      "automation",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": false,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/PunishXIV/AutoHook",
+    "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png",
+    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/autohook-tw-api13-5.0.0.11/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/autohook-tw-api13-5.0.0.11/latest.zip"
+  },
+  {
     "Name": "XIV Combo Expanded API13",
     "InternalName": "XIVComboExpanded",
     "AssemblyVersion": "2.0.4.1",
