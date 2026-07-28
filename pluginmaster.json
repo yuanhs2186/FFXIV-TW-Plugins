@@ -232,10 +232,10 @@
   {
     "Name": "Boss Mod",
     "InternalName": "BossMod",
-    "AssemblyVersion": "7.3.0.107",
+    "AssemblyVersion": "7.3.0.108",
     "Author": "veyn（台服 API13 編譯：yuanhs2186）",
     "Punchline": "提供 AutoDuty 所需的副本戰鬥與機制處理。",
-    "Description": "以 BossMod 7.3 上線日的 API13 程式碼與簽名修正版，對台服 Dalamud 13.0.0.16 重新編譯；可被 AutoDuty 必要插件檢查辨識。",
+    "Description": "以 BossMod 7.3 上線日的 API13 程式碼與簽名修正版，對台服 Dalamud 13.0.0.16 重新編譯；適配 2026.07.22 台服客戶端（MapEffect 簽名與 ClassJobLevels 修正）；可被 AutoDuty 必要插件檢查辨識。",
     "ApplicableVersion": "any",
     "Tags": [
       "combat",
@@ -248,8 +248,8 @@
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
     "IconUrl": "https://s3.puni.sh/media/plugin/30/icon-1x16xz3evsu.png",
-    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/bossmod-tw-api13-7.3.0.107/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/bossmod-tw-api13-7.3.0.107/latest.zip"
+    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/bossmod-tw-api13-7.3.0.108/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/bossmod-tw-api13-7.3.0.108/latest.zip"
   },
   {
     "Name": "GatherBuddy Reborn API13",
