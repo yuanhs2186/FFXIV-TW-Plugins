@@ -381,6 +381,28 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/EnemyListDebuffs/latest.zip"
   },
   {
+    "Name": "XIV Combo Expanded API13",
+    "InternalName": "XIVComboExpanded",
+    "AssemblyVersion": "2.0.4.1",
+    "Author": "attick, daemitus, Khayle（台服 API13 編譯：yuanhs2186）",
+    "Punchline": "將連擊與互斥技能合併到同一個按鈕。",
+    "Description": "以 MKhayle/XIVComboExpanded 2.0.4.1（API14 更新前最後一版 API13 原始碼，commit dfd4036）對台服 Dalamud 13.0.0.16 重新編譯。例如 1-2-3 連擊可合併成連按同一鍵。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "combo",
+      "combat",
+      "qol",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": false,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/MKhayle/XIVComboExpanded",
+    "IconUrl": "https://raw.githubusercontent.com/daemitus/XIVComboPlugin/master/res/icon.png",
+    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/xivcombo-tw-api13-2.0.4.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/xivcombo-tw-api13-2.0.4.1/latest.zip"
+  },
+  {
     "Name": "Target Lines API13",
     "InternalName": "TargetLines",
     "AssemblyVersion": "1.9.0.0",
