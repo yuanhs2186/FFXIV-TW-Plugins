@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | Stylist | 1.0.0.11 | 13 | AutoDuty 建議的裝備推薦配套 |
 | Boss Mod | 7.3.0.108 | 13 | AutoDuty 必要戰鬥與機制插件；適配 2026.07.22 台服客戶端 |
 | GatherBuddy Reborn | 7.3.0.23 | 13 | 台服實機驗證；修正繁中語言初始化並略過未開放的 7.3 採集資料 |
-| Rotation Solver Reborn | 7.3.0.7 | 13 | AutoDuty 可用的戰鬥循環插件 |
+| Rotation Solver Reborn | 7.3.0.71 | 13 | 台服實機驗證；重編譯主插件與內建技能組，修正 DTR API 不相容 |
 | Sonar | 0.7.4.1 | 13 | 狩獵與特殊 FATE 情報接收、轉發 |
 | Item Vendor Location | 2.11.0.0 | 13 | 從物品選單查詢商人位置 |
 | EnemyListDebuffs | 1.13.0.0 | 13 | 在敵人列表顯示自身施加的減益 |
