@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | Pandora's Box | 1.6.3.22 | 13 | AutoDuty 建議的實用自動化配套 |
 | Stylist | 1.0.0.11 | 13 | AutoDuty 建議的裝備推薦配套 |
 | Boss Mod | 0.4.4.2 | 13 | AutoDuty 必要戰鬥與機制插件 |
-| GatherBuddy Reborn | 7.3.0.2 | 13 | Combat Reborn 官方早期 API13 英文版 |
+| GatherBuddy Reborn | 7.3.0.23 | 13 | 台服實機驗證；修正繁中語言初始化並略過未開放的 7.3 採集資料 |
 | Rotation Solver Reborn | 7.3.0.7 | 13 | AutoDuty 可用的戰鬥循環插件 |
 
 ## 注意事項
