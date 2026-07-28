@@ -254,10 +254,10 @@
   {
     "Name": "GatherBuddy Reborn API13",
     "InternalName": "GatherBuddyReborn",
-    "AssemblyVersion": "7.3.0.23",
+    "AssemblyVersion": "7.3.0.24",
     "Author": "The Combat Reborn Team（台服 API13 編譯：yuanhs2186）",
     "Punchline": "自動採集、採集路線與採集清單工具。",
-    "Description": "以 Combat Reborn 7.3.0.2 原始碼對台服 Dalamud 13.0.0.16 重新編譯；修正繁中 ClientLanguage 載入失敗，並略過台服尚未開放的 7.3 魚類與藏寶圖資料。",
+    "Description": "以 Combat Reborn 7.3.0.2 原始碼對台服 Dalamud 13.0.0.16 重新編譯；修正繁中 ClientLanguage 載入失敗、略過未開放的 7.3 採集資料，並修正換裝後同一幀以舊職業執行採集技能造成 Invalid job selected。",
     "ApplicableVersion": "any",
     "Tags": [
       "gathering",
@@ -268,8 +268,8 @@
     "AcceptsFeedback": true,
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn",
-    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/gatherbuddy-tw-api13-7.3.0.23/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/gatherbuddy-tw-api13-7.3.0.23/latest.zip"
+    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/gatherbuddy-tw-api13-7.3.0.24/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/gatherbuddy-tw-api13-7.3.0.24/latest.zip"
   },
   {
     "Name": "Rotation Solver Reborn API13",

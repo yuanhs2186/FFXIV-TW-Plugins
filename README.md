@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | Pandora's Box | 1.6.3.22 | 13 | AutoDuty 建議的實用自動化配套 |
 | Stylist | 1.0.0.11 | 13 | AutoDuty 建議的裝備推薦配套 |
 | BossMod Reborn | 7.3.8.41 | 13 | AutoDuty 必要戰鬥與機制插件；略過台服不存在的 InventoryAck Hook |
-| GatherBuddy Reborn | 7.3.0.23 | 13 | 台服實機驗證；修正繁中語言初始化並略過未開放的 7.3 採集資料 |
+| GatherBuddy Reborn | 7.3.0.24 | 13 | 修正自動換裝後以舊職業執行採集技能造成的 Invalid job selected |
 | Rotation Solver Reborn | 7.3.0.71 | 13 | 台服實機驗證；重編譯主插件與內建技能組，修正 DTR API 不相容 |
 | Sonar | 0.7.4.1 | 13 | 狩獵與特殊 FATE 情報接收、轉發 |
 | Item Vendor Location | 2.11.0.0 | 13 | 從物品選單查詢商人位置 |
