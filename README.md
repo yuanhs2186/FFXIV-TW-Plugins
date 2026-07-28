@@ -20,12 +20,18 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | Yes Already | 1.13.5 | 13 | 使用 YukiDalamudPlugins 的台服相容套件 |
 | AntiAfkKick | 2.1.0.9 | 13 | 防止角色因閒置而被自動踢出 |
 | TextAdvance | 3.2.4.7 | 13 | 自動略過對話並確認跳過過場動畫 |
+| vnavmesh 中文版 | 0.2.8.0 | 13 | AutoDuty 必要尋路插件；AtmoOmen 官方歷史 Release |
+| Avarice | 2.1.1.6 | 13 | 從最後一版 API13 原始碼重新編譯 |
+| Lifestream | 2.5.3.5 | 13 | AutoDuty 建議的傳送與移動配套 |
+| Pandora's Box | 1.6.3.22 | 13 | AutoDuty 建議的實用自動化配套 |
+| Stylist | 1.0.0.11 | 13 | AutoDuty 建議的裝備推薦配套 |
 
 ## 注意事項
 
 - 不要同時啟用兩個 `InternalName` 相同的 Artisan。
 - Artisan 保留原本的 `InternalName: Artisan`，因此會沿用既有設定檔。
 - AutoDuty 仍需要 BossMod、vnavmesh 與支援的戰鬥循環插件。
+- Gearsetter 的原始 Git 主機已失效，目前找不到可驗證的 API13 套件，因此暫不收錄；Stylist 可先提供同類裝備推薦功能。
 - 第三方插件可能違反遊戲服務條款，請自行評估並承擔使用風險。
 
 ## Artisan 檔案雜湊

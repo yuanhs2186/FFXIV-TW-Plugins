@@ -127,5 +127,106 @@
     "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/TextAdvance/master/TextAdvance/images/icon.png",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/TextAdvance/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/TextAdvance/latest.zip"
+  },
+  {
+    "Name": "vnavmesh 中文 API13 版",
+    "InternalName": "vnavmesh",
+    "AssemblyVersion": "0.2.8.0",
+    "Author": "veyn, xan_0；中文維護：AtmoOmen",
+    "Punchline": "提供 AutoDuty 所需的自動尋路與移動功能。",
+    "Description": "AtmoOmen 中文版的最後一個 Dalamud API13 Release，供台服 7.2 測試使用。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "navigation",
+      "automation",
+      "chinese",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": false,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/AtmoOmen/ffxiv_navmesh-cn",
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.2.8.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.2.8.0/latest.zip"
+  },
+  {
+    "Name": "Avarice API13",
+    "InternalName": "Avarice",
+    "AssemblyVersion": "2.1.1.6",
+    "Author": "PunishXIV；API13 重建：yuanhs2186",
+    "Punchline": "提供身位、距離與方向提示。",
+    "Description": "由 PunishXIV/Avarice 最後一版 API13 原始碼重新編譯，作為 AutoDuty 建議配套插件。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "combat",
+      "positionals",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": false,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/PunishXIV/Avarice",
+    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/avarice-api13-2.1.1.6/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/avarice-api13-2.1.1.6/latest.zip"
+  },
+  {
+    "Name": "Lifestream",
+    "InternalName": "Lifestream",
+    "AssemblyVersion": "2.5.3.5",
+    "Author": "NightmareXIV",
+    "Punchline": "提供傳送、跨區與乙太之光移動自動化。",
+    "Description": "台服 Dalamud API13 相容版，作為 AutoDuty 建議配套插件。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "teleport",
+      "automation",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/NightmareXIV/Lifestream",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/Lifestream/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/Lifestream/latest.zip"
+  },
+  {
+    "Name": "Pandora's Box",
+    "InternalName": "PandorasBox",
+    "AssemblyVersion": "1.6.3.22",
+    "Author": "PunishXIV",
+    "Punchline": "提供寶箱拾取、坦克姿態等實用自動化功能。",
+    "Description": "台服 Dalamud API13 相容版，作為 AutoDuty 建議配套插件。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "qol",
+      "automation",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/PandorasBox/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/PandorasBox/latest.zip"
+  },
+  {
+    "Name": "Stylist",
+    "InternalName": "Stylist",
+    "AssemblyVersion": "1.0.0.11",
+    "Author": "NightmareXIV",
+    "Punchline": "根據目前裝備推薦可使用的升級裝備。",
+    "Description": "NightmareXIV 官方最後一版 Dalamud API13 Release，作為 AutoDuty 建議配套插件。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "gear",
+      "automation",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/NightmareXIV/Stylist",
+    "DownloadLinkInstall": "https://github.com/NightmareXIV/Stylist/releases/download/1.0.0.11/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/NightmareXIV/Stylist/releases/download/1.0.0.11/latest.zip"
   }
 ]
