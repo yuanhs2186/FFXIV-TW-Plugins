@@ -18,6 +18,8 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | AutoDuty | 0.0.0.278 | 13 | 使用 YukiDalamudPlugins 的台服相容套件 |
 | AutoRetainer | 4.5.4.12 | 13 | 使用 YukiDalamudPlugins 的台服相容套件 |
 | Yes Already | 1.13.5 | 13 | 使用 YukiDalamudPlugins 的台服相容套件 |
+| AntiAfkKick | 2.1.0.9 | 13 | 防止角色因閒置而被自動踢出 |
+| TextAdvance | 3.2.4.7 | 13 | 自動略過對話並確認跳過過場動畫 |
 
 ## 注意事項
 

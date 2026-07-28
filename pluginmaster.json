@@ -85,5 +85,47 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/26/icon-v1pvonkr6r.png",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/YesAlready/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/YesAlready/latest.zip"
+  },
+  {
+    "Name": "AntiAfkKick",
+    "InternalName": "AntiAfkKick-Dalamud",
+    "AssemblyVersion": "2.1.0.9",
+    "Author": "NightmareXIV",
+    "Punchline": "防止角色因長時間未操作而被遊戲自動踢出。",
+    "Description": "台服 Dalamud API 13 相容版。安裝後即自動運作，不需要另外設定。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "afk",
+      "automation",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/NightmareXIV/AntiAfkKick",
+    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/AntiAfkKick/master/AntiAfkKick-Dalamud/images/icon.png",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/AntiAfkKick-Dalamud/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/AntiAfkKick-Dalamud/latest.zip"
+  },
+  {
+    "Name": "TextAdvance",
+    "InternalName": "TextAdvance",
+    "AssemblyVersion": "3.2.4.7",
+    "Author": "NightmareXIV",
+    "Punchline": "自動略過對話文字並確認跳過過場動畫。",
+    "Description": "台服 Dalamud API 13 相容版，可減少任務與副本自動化過程中的對話等待。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "dialog",
+      "automation",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/NightmareXIV/TextAdvance",
+    "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/TextAdvance/master/TextAdvance/images/icon.png",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/TextAdvance/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/TextAdvance/latest.zip"
   }
 ]
