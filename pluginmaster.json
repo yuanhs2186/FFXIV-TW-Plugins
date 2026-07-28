@@ -230,6 +230,28 @@
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/Stylist/releases/download/1.0.0.11/latest.zip"
   },
   {
+    "Name": "Gearsetter API13",
+    "InternalName": "Gearsetter",
+    "AssemblyVersion": "4.0",
+    "Author": "Liza Carvelli / vera.lyn",
+    "Punchline": "從背包與兵裝庫尋找各職業可用的裝備升級。",
+    "Description": "VeraNala/Gearsetter 官方歷史 Release v4.0；manifest 明確標示 Dalamud API13，並保留 AutoDuty 使用的 GetRecommendationsForGearset IPC。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "gear",
+      "gearset",
+      "automation",
+      "api13"
+    ],
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/VeraNala/Gearsetter",
+    "IconUrl": "https://puni.sh/api/plugins/icon/98",
+    "DownloadLinkInstall": "https://github.com/VeraNala/Gearsetter/releases/download/v4.0/Gearsetter-4.0.zip",
+    "DownloadLinkUpdate": "https://github.com/VeraNala/Gearsetter/releases/download/v4.0/Gearsetter-4.0.zip"
+  },
+  {
     "Name": "BossMod Reborn API13",
     "InternalName": "BossModReborn",
     "AssemblyVersion": "7.3.8.41",

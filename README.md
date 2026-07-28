@@ -25,6 +25,7 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | Lifestream | 2.5.3.5 | 13 | AutoDuty 建議的傳送與移動配套 |
 | Pandora's Box | 1.6.3.22 | 13 | AutoDuty 建議的實用自動化配套 |
 | Stylist | 1.0.0.11 | 13 | AutoDuty 建議的裝備推薦配套 |
+| Gearsetter | 4.0 | 13 | AutoDuty 裝備推薦 IPC；官方歷史 API13 Release |
 | BossMod Reborn | 7.3.8.41 | 13 | AutoDuty 必要戰鬥與機制插件；略過台服不存在的 InventoryAck Hook |
 | GatherBuddy Reborn | 7.3.0.24 | 13 | 修正自動換裝後以舊職業執行採集技能造成的 Invalid job selected |
 | Rotation Solver Reborn | 7.3.0.71 | 13 | 台服實機驗證；重編譯主插件與內建技能組，修正 DTR API 不相容 |
@@ -38,7 +39,7 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 - 不要同時啟用兩個 `InternalName` 相同的 Artisan。
 - Artisan 保留原本的 `InternalName: Artisan`，因此會沿用既有設定檔。
 - AutoDuty 仍需要 BossMod Reborn、vnavmesh 與支援的戰鬥循環插件。
-- Gearsetter 的原始 Git 主機已失效，目前找不到可驗證的 API13 套件，因此暫不收錄；Stylist 可先提供同類裝備推薦功能。
+- Gearsetter 使用 VeraNala 保存的官方 v4.0 API13 Release；Stylist 仍可作為另一個裝備推薦來源。
 - 第三方插件可能違反遊戲服務條款，請自行評估並承擔使用風險。
 
 ## Artisan 檔案雜湊
