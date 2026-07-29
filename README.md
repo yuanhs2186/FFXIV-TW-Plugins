@@ -38,7 +38,7 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | 插件 | 本庫版本 | 採用原因 |
 | --- | --- | --- |
 | BossMod Reborn | `7.3.8.41` | 基於上游 `7.3.8.4`；台服找不到 `InventoryAck` signature 時改為停用該項 hook，而不是讓整個插件載入失敗 |
-| GatherBuddy Reborn | `7.3.0.24` | 已處理台服 `ClientLanguage`、資料與 `Invalid job selected`，但上游基底早於 7.38；目前可載入，不視為最終 7.38 對應版 |
+| GatherBuddy Reborn | `7.3.0.25` | 已處理台服 `ClientLanguage`、資料與 `Invalid job selected`，並完成介面繁體中文化；但上游基底早於 7.38，目前可載入，不視為最終 7.38 對應版 |
 | Rotation Solver Reborn | `7.3.0.71` | 已避開台服不相容的 DTR API 並可載入，但技能組基底早於 7.38；需要再移植到 7.3.8 系列 |
 | vnavmesh | `0.2.8.0` | 採用已確認可配合 AutoDuty 的 AtmoOmen 中文 API 13 版本；不同來源的版本號不可直接比較 |
 
@@ -67,7 +67,7 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | Stylist | `1.0.0.11` | 13 | AutoDuty 建議的裝備推薦配套 |
 | Gearsetter | `4.0` | 13 | AutoDuty 裝備推薦 IPC；官方歷史 API 13 Release |
 | BossMod Reborn | `7.3.8.41` | 13 | AutoDuty 戰鬥與機制插件；含台服 `InventoryAck` 相容修正 |
-| GatherBuddy Reborn | `7.3.0.24` | 13 | 暫用：台服語言、資料與自動換職相容修正；待重做 7.38 基底版 |
+| GatherBuddy Reborn 繁體中文台服版 | `7.3.0.25` | 13 | 介面繁體中文化；台服語言、資料與自動換職相容修正；上游基底待重做 7.38 版 |
 | Rotation Solver Reborn | `7.3.0.71` | 13 | 暫用：台服 API 13 可載入版；待重做 7.38 技能組基底版 |
 | Sonar | `0.7.4.1` | 13 | 狩獵與特殊 FATE 情報接收、轉發 |
 | Item Vendor Location | `2.11.0.0` | 13 | 從物品選單查詢商人位置 |
