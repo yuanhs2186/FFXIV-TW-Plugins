@@ -276,10 +276,10 @@
   {
     "Name": "GatherBuddy Reborn 繁體中文台服版",
     "InternalName": "GatherBuddyReborn",
-    "AssemblyVersion": "7.3.0.25",
+    "AssemblyVersion": "7.3.8.141",
     "Author": "The Combat Reborn Team（台服 API13 編譯與繁中化：yuanhs2186）",
     "Punchline": "採集與釣魚一鍵搞定，介面已繁體中文化。",
-    "Description": "以 Combat Reborn 7.3.0.2 原始碼對台服 Dalamud 13.0.0.16 重新編譯；修正繁中 ClientLanguage 載入失敗、略過未開放的 7.3 採集資料，並修正換裝後同一幀以舊職業執行採集技能造成 Invalid job selected。7.3.0.25 起介面繁體中文化：各分頁、表格、篩選、勾選項與提示說明、聊天視窗輸出、遊戲內右鍵選單與自動採集狀態列。Debug 分頁、TSV 匯出標頭與社群釣場報告格式保留英文以維持相容。首次啟動時表格欄寬與欄位顯示設定會重置一次。",
+    "Description": "以上游 7.3.8.14（最後一個 Dalamud API13 版本）對台服 Dalamud 13.0.0.16 重新編譯，介面繁體中文化。相較先前的 7.3.0.x 基底，新增雲冠群島採集重做、AutoHook 釣魚整合、叉魚系統、咬鉤計時器、收藏品與票券商店支援、自動採集清單資料夾等。台服相容修正：繁中 ClientLanguage 回退英文名稱表；台服尚未開放的魚類、魚餌、藏寶圖與採集點改為靜默略過，不再刷紅字錯誤。Debug 分頁、TSV 匯出標頭與社群釣場報告格式保留英文以維持相容。首次啟動時表格欄寬與欄位顯示設定會重置一次。",
     "ApplicableVersion": "any",
     "Tags": [
       "gathering",
@@ -290,8 +290,8 @@
     "AcceptsFeedback": true,
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn",
-    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/gatherbuddy-tw-api13-7.3.0.25/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/gatherbuddy-tw-api13-7.3.0.25/latest.zip"
+    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/gatherbuddy-tw-api13-7.3.8.141/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/gatherbuddy-tw-api13-7.3.8.141/latest.zip"
   },
   {
     "Name": "Rotation Solver Reborn API13",
