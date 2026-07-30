@@ -297,7 +297,7 @@
   {
     "Name": "Rotation Solver Reborn API13",
     "InternalName": "RotationSolver",
-    "AssemblyVersion": "7.3.0.71",
+    "AssemblyVersion": "7.3.0.72",
     "Author": "The Combat Reborn Team（台服 API13 編譯：yuanhs2186）",
     "Punchline": "分析戰鬥狀態並提供自動循環，供 AutoDuty 使用。",
     "Description": "以 Combat Reborn 7.3.0.7 原始碼對台服 Dalamud 13.0.0.16 重新編譯主插件與內建 RebornRotations；修正 DTR OnClick 二進位介面不相容，已在台服實機驗證載入與技能組。",
@@ -313,8 +313,8 @@
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/FFXIV-CombatReborn/RotationSolverReborn",
     "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/RSR_Icon.png",
-    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/rotationsolver-tw-api13-7.3.0.71/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/rotationsolver-tw-api13-7.3.0.71/latest.zip"
+    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/rotationsolver-tw-api13-7.3.0.72/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/rotationsolver-tw-api13-7.3.0.72/latest.zip"
   },
   {
     "Name": "Sonar API13",

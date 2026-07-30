@@ -39,7 +39,7 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | --- | --- | --- |
 | BossMod Reborn | `7.3.8.41` | 基於上游 `7.3.8.4`；台服找不到 `InventoryAck` signature 時改為停用該項 hook，而不是讓整個插件載入失敗 |
 | GatherBuddy Reborn | `7.3.8.141` | 基於上游 `7.3.8.14`，即最後一個仍為 Dalamud API 13 的版本（`7.4.0.0` 起改用 API 14、`7.5.x` 為 API 15，台服都無法載入）。已處理台服 `ClientLanguage`，並把台服尚未開放的魚類／魚餌／藏寶圖／採集點改為靜默略過；介面繁體中文化 |
-| Rotation Solver Reborn | `7.3.0.71` | 已避開台服不相容的 DTR API 並可載入，但技能組基底早於 7.38；需要再移植到 7.3.8 系列 |
+| Rotation Solver Reborn | `7.3.0.72` | 已避開台服不相容的 DTR API，並補回 AutoDuty 專用 IPC；技能組基底仍早於 7.38 |
 | vnavmesh | `0.2.8.0` | 採用已確認可配合 AutoDuty 的 AtmoOmen 中文 API 13 版本；不同來源的版本號不可直接比較 |
 
 已檢查到的其他 API 13 套件：
@@ -68,7 +68,7 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | Gearsetter | `4.0` | 13 | AutoDuty 裝備推薦 IPC；官方歷史 API 13 Release |
 | BossMod Reborn | `7.3.8.41` | 13 | AutoDuty 戰鬥與機制插件；含台服 `InventoryAck` 相容修正 |
 | GatherBuddy Reborn 繁體中文台服版 | `7.3.8.141` | 13 | 介面繁體中文化；已升到上游最後一個 API 13 基底 `7.3.8.14`，含台服資料相容修正 |
-| Rotation Solver Reborn | `7.3.0.71` | 13 | 暫用：台服 API 13 可載入版；待重做 7.38 技能組基底版 |
+| Rotation Solver Reborn | `7.3.0.72` | 13 | 台服 API 13 可載入版；已補 AutoDuty 自動啟停與目標模式 IPC |
 | Sonar | `0.7.4.1` | 13 | 狩獵與特殊 FATE 情報接收、轉發 |
 | Item Vendor Location | `2.11.0.0` | 13 | 從物品選單查詢商人位置 |
 | EnemyListDebuffs | `1.13.0.0` | 13 | 在敵人列表顯示自身施加的減益 |
