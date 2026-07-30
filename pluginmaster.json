@@ -26,10 +26,11 @@
   {
     "Name": "AutoDuty 繁體中文台服版",
     "InternalName": "AutoDuty",
-    "AssemblyVersion": "0.0.278.2",
+    "AssemblyVersion": "0.0.278.3",
     "Author": "erdelf, Herculezz；繁中化：yuanhs2186",
     "Punchline": "自動執行副本、親信戰友、冒險者分隊及多變迷宮。",
     "Description": "基於 erdelf/AutoDuty 0.0.0.278 對台服 Dalamud API 13 重新編譯，UI 繁體中文化。需要 BossMod、vnavmesh，以及支援的戰鬥循環插件。設定檔與原版共用。",
+    "Changelog": "修正路徑檔更新期間開啟路徑分頁，可能因副本 ID 暫時不在資料表而發生 KeyNotFoundException。未經遊戲內實測。",
     "ApplicableVersion": "any",
     "Tags": [
       "duty",
@@ -41,8 +42,8 @@
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/erdelf/AutoDuty",
     "IconUrl": "https://s3.puni.sh/media/plugin/54/icon-15ug2vnr9m1.png",
-    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/autoduty-tw-zhtw-0.0.278.2/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/autoduty-tw-zhtw-0.0.278.2/latest.zip"
+    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/autoduty-tw-zhtw-0.0.278.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/autoduty-tw-zhtw-0.0.278.3/latest.zip"
   },
   {
     "Name": "AutoRetainer",

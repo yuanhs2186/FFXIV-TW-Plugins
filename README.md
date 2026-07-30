@@ -55,7 +55,7 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 | 插件 | 版本 | API | 說明 |
 | --- | --- | --- | --- |
 | Artisan 繁體中文台服版 | `4.0.4.61` | 13 | 基於 MeowZWR `4.0.4.6-cn` 製作並轉為繁體中文 |
-| AutoDuty 繁體中文台服版 | `0.0.278.2` | 13 | 基於 erdelf/AutoDuty `0.0.0.278` 重新編譯並繁體中文化 |
+| AutoDuty 繁體中文台服版 | `0.0.278.3` | 13 | 基於 erdelf/AutoDuty `0.0.0.278` 重新編譯並繁體中文化；修正路徑更新期間的副本 ID 查找崩潰 |
 | AutoRetainer | `4.5.4.12` | 13 | 使用 YukiDalamudPlugins 的台服相容套件 |
 | Yes Already | `1.13.5` | 13 | 使用 YukiDalamudPlugins 的台服相容套件 |
 | AntiAfkKick | `2.1.0.9` | 13 | 防止角色因閒置而被自動踢出 |
