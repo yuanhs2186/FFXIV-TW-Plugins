@@ -2,7 +2,7 @@
   "$schema": "https://qstxiv.github.io/schema/quest-v1.json",
   "Author": "Gezah",
   "LastChecked":{"Username": "ShermTank", "Date": "2026-06-19"},
-  "Comment": "Crafted Item:\n 1x Bronze Ingot\nAutocraft requires:\n 2x Copper Ore,\n 1x Tin Ore\nWill buy materials from Smydhaemr",
+  "Comment": "292 購料版 v2｜先到 Smydhaemr 補足銅礦 2 個、錫礦 1 個，再製作青銅錠。火之碎晶需自備。",
   "QuestSequence": [
     {
       "Sequence": 0,
@@ -70,14 +70,7 @@
             "Key": 262172
           },
           "ItemId": 5106,
-          "ItemCount": 2,
-          "SkipConditions": {
-            "StepIf": {
-              "Item": {
-                "NotInInventory": false
-              }
-            }
-          }
+          "ItemCount": 2
         },
         {
           "DataId": 1000996,
