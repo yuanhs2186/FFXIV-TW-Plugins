@@ -1,5 +1,19 @@
 [
   {
+    "Author": "liza, qstxiv, & various contributors",
+    "Name": "Questionable 台服版",
+    "InternalName": "Questionable",
+    "Punchline": "台服任務自動化助手。",
+    "Description": "使用 cycleapple 發布的繁體中文 API 13 版本。",
+    "AssemblyVersion": "13.68.129.8",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 13,
+    "RepoUrl": "https://github.com/cycleapple/Questionable",
+    "DownloadLinkInstall": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/Questionable-13.68.129.8.zip",
+    "DownloadLinkUpdate": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/Questionable-13.68.129.8.zip",
+    "IconUrl": "https://raw.githubusercontent.com/cycleapple/DalamudPlugins-TW-API13-Extended/main/icons/Questionable.png"
+  },
+  {
     "Author": "Taurenkey (Puni.sh), MeowZWR；繁中整理：yuanhs2186",
     "Name": "Artisan 繁體中文台服版",
     "Punchline": "適用台服 Dalamud API 13 的繁體中文 Artisan。",
