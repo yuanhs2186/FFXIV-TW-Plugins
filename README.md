@@ -54,27 +54,28 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 
 | 插件 | 版本 | API | 說明 |
 | --- | --- | --- | --- |
+| Questionable 台服版 | `13.68.129.9` | 13 | RSR 戰鬥模式修正、內建任務 292 購料路線 |
 | Artisan 繁體中文台服版 | `4.0.4.61` | 13 | 基於 MeowZWR `4.0.4.6-cn` 製作並轉為繁體中文 |
 | AutoDuty 繁體中文台服版 | `0.0.278.3` | 13 | 基於 erdelf/AutoDuty `0.0.0.278` 重新編譯並繁體中文化；修正路徑更新期間的副本 ID 查找崩潰 |
 | AutoRetainer | `4.5.4.12` | 13 | 使用 YukiDalamudPlugins 的台服相容套件 |
 | Yes Already | `1.13.5` | 13 | 使用 YukiDalamudPlugins 的台服相容套件 |
-| AntiAfkKick | `2.1.0.9` | 13 | 防止角色因閒置而被自動踢出 |
-| TextAdvance | `3.2.4.7` | 13 | 自動略過對話並確認跳過過場動畫 |
+| AntiAfkKick | `2.1.0.10` | 13 | 防止角色因閒置而被自動踢出 |
+| TextAdvance | `3.2.4.8` | 13 | 自動略過對話並確認跳過過場動畫 |
 | vnavmesh 中文版 | `0.2.8.0` | 13 | AutoDuty 必要尋路插件；AtmoOmen 中文 API 13 Release |
-| Avarice | `2.1.1.6` | 13 | 從 API 13 原始碼重新編譯 |
-| Lifestream | `2.5.3.5` | 13 | AutoDuty 建議的傳送與移動配套 |
+| Avarice | `2.1.1.8` | 13 | 從 API 13 原始碼重新編譯 |
+| Lifestream | `2.5.3.9` | 13 | AutoDuty 建議的傳送與移動配套 |
 | Pandora's Box | `1.6.3.22` | 13 | AutoDuty 建議的實用自動化配套 |
 | Stylist | `1.0.0.11` | 13 | AutoDuty 建議的裝備推薦配套 |
 | Gearsetter | `4.0` | 13 | AutoDuty 裝備推薦 IPC；官方歷史 API 13 Release |
 | BossMod Reborn | `7.3.8.41` | 13 | AutoDuty 戰鬥與機制插件；含台服 `InventoryAck` 相容修正 |
 | GatherBuddy Reborn 繁體中文台服版 | `7.3.8.141` | 13 | 介面繁體中文化；已升到上游最後一個 API 13 基底 `7.3.8.14`，含台服資料相容修正 |
 | Rotation Solver Reborn | `7.3.8.271` | 13 | 7.38 技能組基底；台服 DTR 相容重編譯，原生支援 AutoDuty IPC |
-| Sonar | `0.7.4.1` | 13 | 狩獵與特殊 FATE 情報接收、轉發 |
+| Sonar | `0.7.4.4` | 13 | 狩獵與特殊 FATE 情報接收、轉發 |
 | Item Vendor Location | `2.11.0.0` | 13 | 從物品選單查詢商人位置 |
 | EnemyListDebuffs | `1.13.0.0` | 13 | 在敵人列表顯示自身施加的減益 |
 | Target Lines | `1.9.0.0` | 13 | goatcorp API 13 歷史套件 |
-| XIV Combo Expanded | `2.0.4.1` | 13 | 連擊合併單鍵；以 API 14 更新前最後一版原始碼重新編譯 |
-| AutoHook | `5.0.0.11` | 13 | 釣魚自動提鉤；以 API 14 更新前最後一版原始碼重新編譯 |
+| XIV Combo Expanded | `2.0.4.1` | 13 | 連擊合併單鍵；採用 cycleapple 台服繁中 API 13 套件 |
+| AutoHook | `5.0.0.15` | 13 | 釣魚自動提鉤；以 API 14 更新前最後一版原始碼重新編譯 |
 | Wrath Combo | `1.0.2.17` | 13 | 連擊合併進化版；Yuki 保存的官方 API 13 Release，與 XIV Combo 擇一使用 |
 
 實際安裝版本以 [`pluginmaster.json`](./pluginmaster.json) 為準；README 與來源版本不同時請提出回報。

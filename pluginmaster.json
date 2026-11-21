@@ -4,13 +4,13 @@
     "Name": "Questionable 台服版",
     "InternalName": "Questionable",
     "Punchline": "台服任務自動化助手。",
-    "Description": "使用 cycleapple 發布的繁體中文 API 13 版本。",
-    "AssemblyVersion": "13.68.129.8",
+    "Description": "台服 API 13 版。修正 RSR 戰鬥模式，內建鍛鐵匠任務 292 購料路線。",
+    "AssemblyVersion": "13.68.129.9",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/cycleapple/Questionable",
-    "DownloadLinkInstall": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/Questionable-13.68.129.8.zip",
-    "DownloadLinkUpdate": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/Questionable-13.68.129.8.zip",
+    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/questionable-tw-api13-13.68.129.9/Questionable-13.68.129.9.zip",
+    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/questionable-tw-api13-13.68.129.9/Questionable-13.68.129.9.zip",
     "IconUrl": "https://raw.githubusercontent.com/cycleapple/DalamudPlugins-TW-API13-Extended/main/icons/Questionable.png"
   },
   {
@@ -104,7 +104,7 @@
   {
     "Name": "AntiAfkKick",
     "InternalName": "AntiAfkKick-Dalamud",
-    "AssemblyVersion": "2.1.0.9",
+    "AssemblyVersion": "2.1.0.10",
     "Author": "NightmareXIV",
     "Punchline": "防止角色因長時間未操作而被遊戲自動踢出。",
     "Description": "台服 Dalamud API 13 相容版。安裝後即自動運作，不需要另外設定。",
@@ -119,13 +119,13 @@
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/NightmareXIV/AntiAfkKick",
     "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/AntiAfkKick/master/AntiAfkKick-Dalamud/images/icon.png",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/AntiAfkKick-Dalamud/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/AntiAfkKick-Dalamud/latest.zip"
+    "DownloadLinkInstall": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/AntiAfkKick-2.1.0.10.zip",
+    "DownloadLinkUpdate": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/AntiAfkKick-2.1.0.10.zip"
   },
   {
     "Name": "TextAdvance",
     "InternalName": "TextAdvance",
-    "AssemblyVersion": "3.2.4.7",
+    "AssemblyVersion": "3.2.4.8",
     "Author": "NightmareXIV",
     "Punchline": "自動略過對話文字並確認跳過過場動畫。",
     "Description": "台服 Dalamud API 13 相容版，可減少任務與副本自動化過程中的對話等待。",
@@ -140,8 +140,8 @@
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/NightmareXIV/TextAdvance",
     "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/TextAdvance/master/TextAdvance/images/icon.png",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/TextAdvance/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/TextAdvance/latest.zip"
+    "DownloadLinkInstall": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/TextAdvance-3.2.4.8.zip",
+    "DownloadLinkUpdate": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/TextAdvance-3.2.4.8.zip"
   },
   {
     "Name": "vnavmesh 中文 API13 版",
@@ -167,10 +167,10 @@
   {
     "Name": "Avarice API13",
     "InternalName": "Avarice",
-    "AssemblyVersion": "2.1.1.6",
+    "AssemblyVersion": "2.1.1.8",
     "Author": "PunishXIV；API13 重建：yuanhs2186",
     "Punchline": "提供身位、距離與方向提示。",
-    "Description": "由 PunishXIV/Avarice 最後一版 API13 原始碼重新編譯，作為 AutoDuty 建議配套插件。",
+    "Description": "身位與距離提示；主要設定、設定檔、統計與視覺回饋介面已完成 zh-TW 翻譯。",
     "ApplicableVersion": "any",
     "Tags": [
       "combat",
@@ -181,13 +181,13 @@
     "AcceptsFeedback": false,
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/PunishXIV/Avarice",
-    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/avarice-api13-2.1.1.6/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/avarice-api13-2.1.1.6/latest.zip"
+    "DownloadLinkInstall": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/Avarice-2.1.1.8.zip",
+    "DownloadLinkUpdate": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/Avarice-2.1.1.8.zip"
   },
   {
     "Name": "Lifestream",
     "InternalName": "Lifestream",
-    "AssemblyVersion": "2.5.3.5",
+    "AssemblyVersion": "2.5.3.9",
     "Author": "NightmareXIV",
     "Punchline": "提供傳送、跨區與乙太之光移動自動化。",
     "Description": "台服 Dalamud API13 相容版，作為 AutoDuty 建議配套插件。",
@@ -201,8 +201,8 @@
     "AcceptsFeedback": true,
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/NightmareXIV/Lifestream",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/Lifestream/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/Lifestream/latest.zip"
+    "DownloadLinkInstall": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/Lifestream-2.5.3.9.zip",
+    "DownloadLinkUpdate": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/Lifestream-2.5.3.9.zip"
   },
   {
     "Name": "Pandora's Box",
@@ -333,10 +333,10 @@
   {
     "Name": "Sonar API13",
     "InternalName": "SonarPlugin",
-    "AssemblyVersion": "0.7.4.1",
+    "AssemblyVersion": "0.7.4.4",
     "Author": "Sonar Team",
     "Punchline": "自動接收與轉發狩獵、特殊 FATE 情報。",
-    "Description": "Yuki 台服相容庫保存的 Dalamud API13 版本；使用 /sonar 開啟介面，/sonarconfig 設定。",
+    "Description": "自動傳送與接收狩獵及 FATE 通報。主要設定、通報、Lodestone 驗證與支援介面已翻譯為台灣繁中。本插件會連線至 Sonar 社群服務並交換通報資料。",
     "ApplicableVersion": "any",
     "Tags": [
       "hunt",
@@ -349,8 +349,8 @@
     "DalamudApiLevel": 13,
     "RepoUrl": "https://discord.gg/K7y24Rr",
     "IconUrl": "https://assets.ffxivsonar.com/dalamud/logo.png",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/SonarPlugin/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/YukiDalamudPlugins/TC/main/api13/SonarPlugin/latest.zip"
+    "DownloadLinkInstall": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/SonarPlugin-0.7.4.4.zip",
+    "DownloadLinkUpdate": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/SonarPlugin-0.7.4.4.zip"
   },
   {
     "Name": "Item Vendor Location API13",
@@ -420,10 +420,10 @@
   {
     "Name": "AutoHook API13",
     "InternalName": "AutoHook",
-    "AssemblyVersion": "5.0.0.11",
+    "AssemblyVersion": "5.0.0.15",
     "Author": "Det (PunishXIV)（台服 API13 編譯：yuanhs2186）",
     "Punchline": "自動提鉤、自動拋竿的釣魚輔助。",
-    "Description": "以 PunishXIV/AutoHook API14 更新前最後一版 API13 原始碼（commit 081cab5）對台服 Dalamud 13.0.0.16 重新編譯，無需改碼。使用 /ahook 開啟設定。",
+    "Description": "釣魚與刺魚輔助。台服 API13 版本，保留 GatherBuddy 所需 IPC 與繁中介面；內建 67 個歷史海釣模板，可於社群模板頁離線匯入。",
     "ApplicableVersion": "any",
     "Tags": [
       "fishing",
@@ -436,8 +436,8 @@
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/PunishXIV/AutoHook",
     "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png",
-    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/autohook-tw-api13-5.0.0.11/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/autohook-tw-api13-5.0.0.11/latest.zip"
+    "DownloadLinkInstall": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/AutoHook-5.0.0.15.zip",
+    "DownloadLinkUpdate": "https://github.com/cycleapple/DalamudPlugins-TW-API13-Extended/releases/download/plugins-api13/AutoHook-5.0.0.15.zip"
   },
   {
     "Name": "XIV Combo Expanded API13",
