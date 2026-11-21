@@ -54,7 +54,7 @@ https://raw.githubusercontent.com/yuanhs2186/FFXIV-TW-Plugins/main/pluginmaster.
 
 | 插件 | 版本 | API | 說明 |
 | --- | --- | --- | --- |
-| Questionable 台服版 | `13.68.129.9` | 13 | RSR 戰鬥模式修正、內建任務 292 購料路線 |
+| Questionable 台服版 | `13.68.129.10` | 13 | 保留 RSR 戰鬥修正；新增 21 個任務的購買步驟，含八種製作職的入門購料路線（含既有的鍛鐵匠） |
 | Artisan 繁體中文台服版 | `4.0.4.61` | 13 | 基於 MeowZWR `4.0.4.6-cn` 製作並轉為繁體中文 |
 | AutoDuty 繁體中文台服版 | `0.0.278.3` | 13 | 基於 erdelf/AutoDuty `0.0.0.278` 重新編譯並繁體中文化；修正路徑更新期間的副本 ID 查找崩潰 |
 | AutoRetainer | `4.5.4.12` | 13 | 使用 YukiDalamudPlugins 的台服相容套件 |

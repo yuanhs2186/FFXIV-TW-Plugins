@@ -4,13 +4,14 @@
     "Name": "Questionable 台服版",
     "InternalName": "Questionable",
     "Punchline": "台服任務自動化助手。",
-    "Description": "台服 API 13 版。修正 RSR 戰鬥模式，內建鍛鐵匠任務 292 購料路線。",
-    "AssemblyVersion": "13.68.129.9",
+    "Description": "台服 API 13 版。保留 RSR 戰鬥修正，內建多職業購料路線。",
+    "Changelog": "新增 21 個任務的購買步驟，涵蓋製作職入門與多個烹調師任務。一般商店購料時會檢查所需數量。",
+    "AssemblyVersion": "13.68.129.10",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/cycleapple/Questionable",
-    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/questionable-tw-api13-13.68.129.9/Questionable-13.68.129.9.zip",
-    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/questionable-tw-api13-13.68.129.9/Questionable-13.68.129.9.zip",
+    "DownloadLinkInstall": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/questionable-tw-api13-13.68.129.10/Questionable-13.68.129.10.zip",
+    "DownloadLinkUpdate": "https://github.com/yuanhs2186/FFXIV-TW-Plugins/releases/download/questionable-tw-api13-13.68.129.10/Questionable-13.68.129.10.zip",
     "IconUrl": "https://raw.githubusercontent.com/cycleapple/DalamudPlugins-TW-API13-Extended/main/icons/Questionable.png"
   },
   {
